@@ -21,16 +21,16 @@ function SideNav() {
                     <div className='menu'>
                         <ul className='nav__list'>
                              <li className='nav__item'>
-                                <a href='' className='nav__link active-link'>Home</a>
+                                <a href='#home' className='nav__link active-link'>Home</a>
                              </li>
                              <li className='nav__item'>
-                                <a href='' className='nav__link'>About</a>
+                                <a href='#about' className='nav__link' >About</a>
                              </li>
                              <li className='nav__item'>
-                                <a href='' className='nav__link'>Skills</a>
+                                <a href='#skills' className='nav__link'>Skills</a>
                              </li>
                              <li className='nav__item'>
-                                <a href='' className='nav__link'>Projects</a>
+                                <a href='#projects' className='nav__link'>Projects</a>
                              </li>
                              <li className='nav__item'>
                                 <a href='' className='nav__link'>Contact</a>

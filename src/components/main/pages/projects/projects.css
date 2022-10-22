@@ -1,0 +1,11 @@
+img {
+    width: 50%;
+    /* border: 2px solid var(--skin-color); */
+    /* background-color: var(--skin-color); */
+    background-size: cover;
+     /* opacity: 0.6; */
+}
+
+.projects__container {
+    margin: 20px;
+}

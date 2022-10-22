@@ -1,6 +1,10 @@
 import './about.css'
 import avatar from './profile.jpg'
-import { GrCertificate } from 'react-icons/gr';
+import { TbFileCertificate } from 'react-icons/tb';
+import { BsTrophy } from 'react-icons/bs';
+import { MdComputer } from 'react-icons/md';
+
+
 
 function About() {
   return (
@@ -13,28 +17,27 @@ function About() {
 
             <div className='about__data'>
                     <h3 className='about__heading'>Hi, I'm Rochelle Joan Esteves from Philippines</h3>
-                    <p className='about__description'>I graduated from AMA Computer College with a degree of Bachelor of Science in Information Technology
+                    <p className='about__description'>I graduated at AMA Computer College with a degree of Bachelor of Science in Information Technology
                         and has a Full Stack Web Development certificate in Zuiit Coding Bootcamp Philippines.
-                        With extensive knowledge and years of experience working in web development.
                         With my passion for learning, I will be able to take part in empowering your team 
-                        with my coding experience while making significant contribution to the success of the company.
+                        with my extensive knowledge and years of experience working in web development while making significant contribution to the success of the company.
                     </p>
 
                     <div className='about__info grid'>
                             <div className='about__box'>
-                                <span className='about__icon'>ICON</span>
+                                <span className='about__icon'><MdComputer /></span>
                                 <h3 className='about__title'>Experience</h3>
                                 <span className='about__subtitle'> 4 + Years</span>
                             </div>
 
                             <div className='about__box'>
-                                <span className='about__icon'>ICON</span>
+                                <span className='about__icon'><BsTrophy /></span>
                                 <h3 className='about__title'>Completed</h3>
                                 <span className='about__subtitle'> 10 + Projects</span>
                             </div>
 
                             <div className='about__box'>
-                                <span className='about__icon'>ICON</span>
+                                <span className='about__icon'><TbFileCertificate /></span>
                                 <h3 className='about__title'>Certificate</h3>
                                 <span className='about__subtitle'> 4 + Certificates</span>
                             </div>

@@ -6,12 +6,12 @@ import './home.css'
 
 function Home() {
   return (
-   <div className="home">
+   <div className="home" id="home">
         <div className="home__container container grid">
             <div className="home__social">
                   <span className="home__social-follow">Follow me</span>  
                   <div className="home__social-links">
-                        <a href="" target="_blank" className="home__social-link"><FaLinkedin /></a>
+                        <a href="https://www.linkedin.com/in/rochelle-joan-esteves-471966204/" target="_blank" className="home__social-link"><FaLinkedin /></a>
                         <a href="" target="_blank" className="home__social-link"><FaInstagramSquare /></a>
                         <a href="" target="_blank" className="home__social-link"><FaTwitterSquare /></a>
                   </div>

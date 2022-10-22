@@ -121,6 +121,8 @@ input {
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
+    --p-font-size: .50rem;
+    --fold-font-size: .35rem;
   }
 }
 
