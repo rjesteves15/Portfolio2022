@@ -1,17 +1,19 @@
+import React, {useState} from 'react';
 import './sideNav.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
+import classnames from "classnames";
 function SideNav() {
-
+   const [active, setActive] = useState(false);
    const hamburger = () =>{
-         alert(1)
+         setActive(!active);
    }
   return (
 <>
    <div className='nav__toggle' id="nav-toggle">
       <GiHamburgerMenu onClick={hamburger} />
    </div>
-   <div className='sidebar'>
+   <div className={classnames('sidebar', {["show-sidebar"]: active})}>
             <div className='nav'>
                 <div className='nav__logo'>
                     <a href='' className='nav__logo-text'>RJ</a>
@@ -47,7 +49,7 @@ function SideNav() {
                 <i className='uil uil-share-alt social__share'></i>
             </div> */}
             <div className="nav__close" id="nav-close">
-               <AiOutlineClose />
+               <AiOutlineClose onClick={hamburger}/>
             </div>
 
 
