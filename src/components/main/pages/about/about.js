@@ -42,7 +42,7 @@ function About() {
                                 <span className='about__subtitle'> 4 + Certificates</span>
                             </div>
                     </div>
-                    <a href='#contact' className='button'>
+                    <a href='https://www.linkedin.com/in/rochelle-joan-esteves-471966204/' target="_blank" className='button'>
                         <span className='button__icon'></span>
                         Contact Me
                     </a>

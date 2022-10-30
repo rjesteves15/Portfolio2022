@@ -1,0 +1,13 @@
+.footer__container {
+    height: 20vh;
+    background-color: var(--skin-color);
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h4 {
+    color: var(--body-color);
+}

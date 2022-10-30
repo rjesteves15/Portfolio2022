@@ -34,9 +34,9 @@ function SideNav() {
                              <li className='nav__item'>
                                 <a href='#projects' className='nav__link'>Projects</a>
                              </li>
-                             <li className='nav__item'>
+                             {/* <li className='nav__item'>
                                 <a href='' className='nav__link'>Contact</a>
-                             </li>
+                             </li> */}
                              <li className='nav__item'>
                                 <a href='' className='nav__link'>Resume</a>
                              </li>

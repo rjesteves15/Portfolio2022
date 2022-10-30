@@ -46,9 +46,12 @@ h4 {
     transform: translate(-50%, -50%);
     background-color: var(--skin-color);
     padding: 20px;
-    width: 60%;
-    height: 50%;
-    box-shadow: 5px 3px #000;
+    /* width: 20%;
+    height: 50%; */
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -59,4 +62,8 @@ a {
 
 a:hover {
     color: #fff;
+}
+
+p {
+    font-size: var(--small-font-size);
 }

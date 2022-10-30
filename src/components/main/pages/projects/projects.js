@@ -13,25 +13,25 @@ SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
 function Projects() {
   const images = [
     {
-      url: capstone1,
-      title: "First Portfolio",
-      alternativeText: "Capstone 1",
-      description: "Technologies used: HTML, CSS and Bootstrap",
-      link: "https://www.w3schools.com"
-    },
-    {
       url: capstone2,
       title: "Course Booking App",
       alternativeText: "Capstone 2",
-      description: "Technologies used: HTML, CSS, Bootstrap, Javascript, Express.JS, Node.Js and MongoDB.",
+      description: "Technologies used: HTML, CSS, Bootstrap, Javascript, Express.JS, Node.Js and MongoDB",
       link: "https://rchllstvs.gitlab.io/booking-system-capstone-2/"
     },
     {
       url: capstone3,
       title: "Budget Tracking App",
       alternativeText: "Sweden Photo Three",
-      description: "Technologies used: HTML, CSS, Bootstrap, Javascript, Express.JS, Node.Js and MongoDB.",
+      description: "Technologies used: HTML, CSS, Bootstrap, Javascript, Express.JS, Node.Js and MongoDB",
       link: "https://budget-tracker-cs3-fb9636x4h-rchllstvs.vercel.app/"
+    },
+    {
+      url: capstone1,
+      title: "First Portfolio",
+      alternativeText: "Capstone 1",
+      description: "Technologies used: HTML, CSS and Bootstrap",
+      link: "https://rochelle-portfolio.vercel.app/"
     }
   ];
   return (
@@ -56,15 +56,15 @@ function Projects() {
             <div className="project__card">
               <div className="text-block">
                 <div className="description">
-                  <h4>{photo.title} </h4>
-                  <p>{photo.description}</p>
-                  <a href={photo.link}>View Live</a>
+                  {/* <h4>{photo.title} </h4>
+                  <p>{photo.description}</p> */}
+                  <a href={photo.link} target="_blank">View Live</a>
                 </div>
               </div>
               <img
                 src={photo.url}
                 alt={photo.alternativeText}
-                style={{ width: "50vw" }}
+                style={{ width: "70vw" }}
               />
             </div>
           </SwiperSlide>

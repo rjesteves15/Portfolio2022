@@ -34,6 +34,7 @@
 
 .menu {
     display: flex;
+    margin-right: 40px;
 }
 
 .nav__list{
@@ -52,11 +53,12 @@
     position: relative;
 }
 
-.nav__link.active-link,
+.nav__link.active,
 .nav__link:hover {
     color: var(--skin-color);
     transition: .5s;
 }
+
 
 .nav__link.active-link::after,
 .nav__link:hover::after {
