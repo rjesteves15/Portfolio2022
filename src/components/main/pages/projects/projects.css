@@ -1,14 +1,13 @@
 img {
     width: 50%;
-    /* border: 2px solid var(--skin-color); */
-    /* background-color: var(--skin-color); */
     background-size: cover;
-     /* opacity: 0.6; */
      border-radius: 2%;
+     border: 3px solid var(--skin-color);
 }
 
-h4 {
-    color: var(--body-color);
+h5 {
+    color: var(--skin-color);
+    font-size: var(--h3-font-size);
 }
 
 .projects__container {
@@ -17,7 +16,7 @@ h4 {
 
 .swiper-button-prev,
 .swiper-button-next {
- color: red !important;
+ color: var(--skin-color) !important;
 }
 
 .swiper-pagination-bullet {
@@ -31,12 +30,10 @@ h4 {
 
 .text-block {
   position: absolute;
-  /* background-color: var(--skin-color); */
   width: 100%;
   height: 100%;
   color: white;
   border-radius: 5%;
-   /* opacity: 0.7; */
 }
 
 .description {
@@ -44,10 +41,9 @@ h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--skin-color);
+    background-color: #fff;
+    border: 1px solid var(--skin-color);
     padding: 20px;
-    /* width: 20%;
-    height: 50%; */
     border-radius: 5%;
     text-align: center;
     align-items: center;
@@ -57,13 +53,30 @@ h4 {
 a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--body-color);
+  color: var(--body-color)
 }
 
 a:hover {
-    color: #fff;
+    color: var(--skin-color)
 }
 
 p {
     font-size: var(--small-font-size);
+}
+
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: var(--small-font-size);
+  }
+  p {
+    font-size: var(--smaller-font-size);
+  }
+}
+@media screen and (max-width: 350px) {
+  h5 {
+    font-size: var(--small-font-size);
+  }
+  p {
+    font-size: var(--smaller-font-size);
+  }
 }

@@ -43,6 +43,7 @@ function Projects() {
        <Swiper
         id="main"
         pagination
+        navigation
         spaceBetween={0}
         slidesPerView={1}
         onInit={(swiper) => console.log("Swiper initialized!", swiper)}
@@ -56,16 +57,18 @@ function Projects() {
             <div className="project__card">
               <div className="text-block">
                 <div className="description">
-                  {/* <h4>{photo.title} </h4>
-                  <p>{photo.description}</p> */}
+                  <h5>{photo.title} </h5>
+                  {/* <p>{photo.description}</p> */}
                   <a href={photo.link} target="_blank">View Live</a>
                 </div>
               </div>
+              <div>
               <img
                 src={photo.url}
                 alt={photo.alternativeText}
                 style={{ width: "70vw" }}
               />
+              </div>
             </div>
           </SwiperSlide>
         ))}
