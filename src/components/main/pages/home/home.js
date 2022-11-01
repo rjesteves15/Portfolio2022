@@ -1,6 +1,7 @@
 import profile from './profile.png'
-import { FaViber, FaTelegramPlane, FaLinkedin, FaInstagramSquare, FaTwitterSquare, FaDownload} from 'react-icons/fa';
+import { FaViber, FaTelegramPlane, FaLinkedin, FaGithubSquare, FaInstagramSquare, FaTwitterSquare, FaDownload} from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+
 import resume from './Esteves_Rochelle_P_CV.pdf'
 import './home.css'
 
@@ -12,7 +13,7 @@ function Home() {
                   <span className="home__social-follow">Follow me</span>  
                   <div className="home__social-links">
                         <a href="https://www.linkedin.com/in/rochelle-joan-esteves-471966204/" target="_blank" className="home__social-link"><FaLinkedin /></a>
-                        <a href="" target="_blank" className="home__social-link"><FaInstagramSquare /></a>
+                        <a href="https://github.com/rjesteves15" target="_blank" className="home__social-link"><FaGithubSquare /></a>
                         <a href="" target="_blank" className="home__social-link"><FaTwitterSquare /></a>
                   </div>
             </div>

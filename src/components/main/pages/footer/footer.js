@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='footer__container'>
       <h4>
-      Rochelle Joan Esteves 2022
+      Rochelle Joan Esteves | Portfolio 2022
       </h4>
     </div>
   )
