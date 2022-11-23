@@ -2,7 +2,11 @@ import React, {useState} from 'react';
 import './sideNav.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
+import { NavLink as Link } from "react-router-dom";
 import classnames from "classnames";
+import resume from './Esteves_Rochelle_P_CV.pdf'
+
+
 function SideNav() {
    const [active, setActive] = useState(false);
    const hamburger = () =>{
@@ -23,22 +27,19 @@ function SideNav() {
                     <div className='menu'>
                         <ul className='nav__list'>
                              <li className='nav__item'>
-                                <a href='#home' className='nav__link active-link'>Home</a>
+                                 <Link to="/" className="nav__link" activeclassname="active">Home</Link>
                              </li>
                              <li className='nav__item'>
-                                <a href='#about' className='nav__link' >About</a>
+                                  <Link to="/about" className="nav__link" activeclassname="active">About</Link>
                              </li>
                              <li className='nav__item'>
-                                <a href='#skills' className='nav__link'>Skills</a>
+                                  <Link to="/skills" className="nav__link" activeclassname="active">Skills</Link>
                              </li>
                              <li className='nav__item'>
-                                <a href='#projects' className='nav__link'>Projects</a>
+                                  <Link to="/projects" className="nav__link" activeclassname="active">Project</Link>
                              </li>
-                             {/* <li className='nav__item'>
-                                <a href='' className='nav__link'>Contact</a>
-                             </li> */}
                              <li className='nav__item'>
-                                <a href='' className='nav__link'>Resume</a>
+                                <a href={resume} target="_blank" rel="noreferrer" className='nav__link'>Resume</a>
                              </li>
                         </ul>
                     </div>

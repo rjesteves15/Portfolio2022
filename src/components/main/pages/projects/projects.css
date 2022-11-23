@@ -1,12 +1,10 @@
 img {
     width: 50%;
     background-size: cover;
-     border-radius: 2%;
-     border: 3px solid var(--skin-color);
 }
 
 h5 {
-    color: var(--skin-color);
+  color: var(--skin-color);
     font-size: var(--h3-font-size);
 }
 
@@ -32,7 +30,6 @@ h5 {
   position: absolute;
   width: 100%;
   height: 100%;
-  color: white;
   border-radius: 5%;
 }
 
@@ -41,10 +38,8 @@ h5 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
-    border: 1px solid var(--skin-color);
+    background-color: var(--body-color);
     padding: 20px;
-    border-radius: 5%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -53,7 +48,7 @@ h5 {
 a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--body-color)
+  color: #fff;
 }
 
 a:hover {

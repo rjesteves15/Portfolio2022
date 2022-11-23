@@ -1,6 +1,7 @@
 import profile from './profile.png'
 import { FaViber, FaTelegramPlane, FaLinkedin, FaGithubSquare, FaInstagramSquare, FaTwitterSquare, FaDownload} from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import { BsGithub } from 'react-icons/bs';
 
 import resume from './Esteves_Rochelle_P_CV.pdf'
 import './home.css'

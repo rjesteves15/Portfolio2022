@@ -6,6 +6,7 @@ import './projects.css';
 import capstone1 from '../projects/capstone1.png';
 import capstone2 from '../projects/capstone2.png';
 import capstone3 from '../projects/capstone3.png';
+import Footer from "../footer/footer";
 
 SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
 
@@ -73,9 +74,9 @@ function Projects() {
           </SwiperSlide>
         ))}
       </Swiper>
-
       </div>
-
+        
+      
 
    </div>
    </>

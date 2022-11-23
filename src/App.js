@@ -3,6 +3,7 @@ import './app.css';
 import Main from './components/main/main';
 import SideNav from './components/sidebarNav/sideNav';
 import { Circles } from 'react-loader-spinner';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 
@@ -18,6 +19,7 @@ function App() {
 
 
   return (
+    <BrowserRouter>
  <div>
   {isLoading ?
 
@@ -46,6 +48,7 @@ function App() {
             } 
 
  </div>
+ </BrowserRouter>
   );
 }
 
