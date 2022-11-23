@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './app.css';
+import './App.css';
 import Main from './components/main/main';
 import SideNav from './components/sidebarNav/sideNav';
 import { Circles } from 'react-loader-spinner';
